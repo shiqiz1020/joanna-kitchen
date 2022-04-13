@@ -18,12 +18,12 @@ const defaultStackNavOptions = {
         headerStyle: {
             backgroundColor: Platform.OS === 'android' ? Colors.primaryColor : '' 
         },
-        headerTitleStyle: {
-            fontFamily: 'open-sans-bold'
-        },
-        headerBackTitleStyle: {
-            fontFamily: 'open-sans'
-        },
+        // headerTitleStyle: {
+        //     fontFamily: 'open-sans-bold'
+        // },
+        // headerBackTitleStyle: {
+        //     fontFamily: 'open-sans'
+        // },
         headerTintColor: Platform.OS === 'android' ? 'white' : Colors.primaryColor 
     }
 };
@@ -78,9 +78,9 @@ const MealsFavTabNavigator = createBottomTabNavigator({
     } 
 }, {
     tabBarOptions: {
-        labelStyle: {
-            fontFamily: 'oepn-sans-bold'
-        },
+        // labelStyle: {
+        //     fontFamily: 'oepn-sans-bold'
+        // },
         activeTintColor: Colors.accentColor
     }
 });
@@ -96,9 +96,9 @@ const MainNavigator = createDrawerNavigator({
 }, {
     contentOptions: {
         activeTintColor: Colors.accentColor,
-        labelStyle: {
-            fontFamily: 'open-sans-bold'
-        }
+        // labelStyle: {
+        //     fontFamily: 'open-sans-bold'
+        // }
     }
 });
 

@@ -114,7 +114,7 @@ const styles = StyleSheet.create({
         marginVertical: 10
     },
     title: {
-        fontFamily: 'open-sans-bold',
+        // fontFamily: 'open-sans-bold',
         fontSize: 22,
         margin: 20,
         textAlign: 'center'

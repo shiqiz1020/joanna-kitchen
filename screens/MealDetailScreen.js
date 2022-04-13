@@ -95,7 +95,7 @@ const styles = StyleSheet.create({
     justifyContent: 'space-around'
   },
   title: {
-    fontFamily: 'open-sans-bold',
+    // fontFamily: 'open-sans-bold',
     fontSize: 18,
     textAlign: 'center'
   },
